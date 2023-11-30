@@ -34,7 +34,7 @@ public class CustomerController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView listCustomer(HttpServletRequest request, ModelAndView model) throws IOException {
 
-		//test
+		//test1
 		//test2
 		String colname = request.getParameter("col");
 		String orderby = request.getParameter("orderby");
