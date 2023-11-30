@@ -44,7 +44,7 @@ public class CustomerController {
 			orderby = "asc";
 		}
 
-		float pageid = 1;
+		int pageid = 1;
 		int total = 4;
 
 		int totalRecords = customerDao.getCount();
