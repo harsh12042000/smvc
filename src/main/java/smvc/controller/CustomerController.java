@@ -35,6 +35,7 @@ public class CustomerController {
 	public ModelAndView listCustomer(HttpServletRequest request, ModelAndView model) throws IOException {
 
 		//test
+		//test2
 		String colname = request.getParameter("col");
 		String orderby = request.getParameter("orderby");
 
